@@ -1,0 +1,19 @@
+span {
+  border-radius: 4pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  margin-left: 2pt;
+  margin-right: 2pt;
+  margin-top: 0.5em;
+  cursor: pointer;
+  color: black;
+}
+
+span.selected {
+  background-color: limegreen;
+  border: 1pt solid #0000;
+}
+
+span.not-selected {
+  border: 1pt solid #ccc;
+}
